@@ -10,6 +10,19 @@ Skills must read and update database records instead of relying on memory.
 
 ---
 
+# Initialization
+
+If the database does not exist, create it before first use:
+
+```bash
+mkdir -p data
+sqlite3 data/listings.db < scripts/init-db.sql
+```
+
+Or instruct the agent: "Initialize the listings database."
+
+---
+
 # Table: listings
 
 Stores real estate listings found on Vietnamese listing websites.
