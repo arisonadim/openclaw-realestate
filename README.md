@@ -39,15 +39,7 @@ Search → Approve → Contact → Schedule
 git clone git@github.com:arisonadim/openclaw-realestate.git ~/.openclaw/workspace
 ```
 
-2. Create the database:
-
-```bash
-sqlite3 ~/.openclaw/workspace/data/listings.db < schemas/listing-schema.md
-```
-
-> The agent will create the DB automatically on first use if it doesn't exist.
-
-3. Tell your agent to start searching:
+2. Tell your agent to start searching:
 
 ```
 Search for 2-bedroom apartments for rent in District 2, Ho Chi Minh City, under 15 million VND/month
